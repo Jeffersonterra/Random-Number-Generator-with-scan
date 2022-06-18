@@ -9,11 +9,11 @@ public class RandomNumber {
                 "The random number generator will generate a number, input the minimum and maximum values for the number generator: ");
         int min = sc.nextInt();
         int max = sc.nextInt();
-       /* // Generate random double value from 200 to 400
+       /* // Generate random double value from nim to max
         System.out.println("Random value of type double between " + min + " to " + max + ":");
         double a = Math.random() * (max - min + 1) + min;
         System.out.println(a);*/
-        // Generate random int value from 200 to 400
+        // Generate random int value from min  to max
         System.out.println("Random value of type int between " + min + " to " + max + ":");
         int b = (int) (Math.random() * (max - min + 1) + min);
         System.out.println(b);
